@@ -1,0 +1,36 @@
+﻿Flow,Intent,Location,Num People,When,Dialog,Dialog ID
+0,0,0,0,0,Hey! Would you like to make a booking?,0
+0,4,0,0,0,"Okay, where would you like to go?",1
+0,5,1,0,0,How many people?,2
+0,5,1,1,0,What time?,3
+0,5,1,1,1,"Okay here is the booking, do you confirm?",4
+0,4,1,1,1,Ok booked!,5
+0,3,1,1,1,Youre welcome!,6
+1,0,0,0,0,Hey! Would you like to make a booking?,0
+1,4,0,0,0,"Okay, where would you like to go?",1
+1,5,1,0,0,How many people?,2
+1,5,1,1,0,What time?,3
+1,5,1,1,1,"Okay here is the booking, do you confirm?",4
+1,2,1,1,1,Okay lets start again.,7
+1,3,1,1,1,Youre welcome!,6
+2,0,0,0,0,Hey! Would you like to make a booking?,0
+2,4,0,0,0,"Okay, where would you like to go?",1
+2,2,0,0,0,Are you sure you want to cancel booking?,8
+2,4,0,0,0,Okay goodbye!,9
+3,0,0,0,0,Hey! Would you like to make a booking?,0
+3,1,0,0,0,"Okay, where would you like to go?",1
+3,5,1,0,0,How many people?,2
+3,5,1,1,0,What time?,3
+3,5,1,1,1,"Okay here is the booking, do you confirm?",4
+3,4,1,1,1,Ok booked!,5
+3,3,1,1,1,Youre welcome!,6
+4,0,0,0,0,Hey! Would you like to make a booking?,0
+4,4,0,0,0,"Okay, where would you like to go?",1
+4,2,0,0,0,Are you sure you want to cancel booking?,8
+4,4,0,0,0,Okay goodbye!,9
+5,0,0,0,0,Hey! Would you like to make a booking?,0
+5,6,1,0,0,Okay looking for restaurants in this location,10
+5,3,1,0,0,Youre welcome!,6
+5,0,0,0,0,Hey! Would you like to make a booking?,0
+5,6,0,0,1,Okay looking for restaurants for this time,11
+5,3,1,0,1,Youre welcome!,6
